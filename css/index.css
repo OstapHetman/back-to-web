@@ -57,11 +57,40 @@ article img {
 .photodiary section p:nth-child(2) {
   color: #626262;
   font-size: 1.875em;
-  margin-top: 30px; }
+  margin-top: 1.875em; }
 
 .photodiary section p:nth-child(3) {
   color: #626262;
   font-size: 0.875em;
-  margin-top: 45px; }
+  margin-top: 2.813em; }
+
+.lifestyle {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 12.500em; }
+
+article .left-post {
+  max-width: 29.500em;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+article .left-post div div p:first-child {
+  color: #b4ad9e;
+  font-size: 0.875em;
+  margin-top: 1.875em; }
+
+article .left-post div div p:nth-child(2) {
+  color: #626262;
+  font-size: 1.875em;
+  margin-top: 1.875em; }
+
+article .right-post {
+  max-width: 29.500em;
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=index.css.map */
