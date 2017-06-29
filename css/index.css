@@ -1,7 +1,9 @@
 * {
   font-family: "Ubuntu", sans-serif;
   list-style: none;
-  text-decoration: none; }
+  text-decoration: none;
+  max-width: 1920px;
+  margin: auto; }
 
 nav {
   position: relative;
@@ -25,5 +27,14 @@ nav {
 
 .nav-item a:hover {
   color: #000; }
+
+article figure {
+  display: flex;
+  justify-content: center; }
+
+article figure img {
+  max-width: 100%;
+  display: block;
+  height: auto; }
 
 /*# sourceMappingURL=index.css.map */

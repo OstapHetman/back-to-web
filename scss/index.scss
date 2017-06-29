@@ -10,8 +10,11 @@ $header-width: 100%;
 	font-family: $font;
 	list-style: none;
 	text-decoration: none;
+	max-width: 1920px;
+	margin: auto;
 }
 
+//====NAVIGATION====//
 nav {
 	position: relative;
 	font-size: $size-font-menu;
@@ -39,4 +42,15 @@ nav {
 
 .nav-item a:hover {
 	color: $header-hover;
+}
+
+//====Home-image====//
+article figure {
+	display:flex;
+	justify-content: center;
+}
+article figure img {
+	max-width: 100%; 
+	display:block; 
+	height: auto;
 }
