@@ -1,4 +1,29 @@
 * {
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+  text-decoration: none; }
+
+nav {
+  position: relative;
+  font-size: 0.875em;
+  font-weight: bold;
+  margin-top: 4.375em;
+  width: 100%; }
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.nav-item a {
+  padding-right: 6.250em;
+  color: #626262; }
+
+.nav-item:first-child a {
+  font-size: 1.875em; }
+
+.nav-item a:hover {
+  color: #000; }
 
 /*# sourceMappingURL=index.css.map */

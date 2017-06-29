@@ -1,5 +1,42 @@
 $font: 'Ubuntu', sans-serif;
+$size-font-menu: 0.875em;
+$size-logo: 1.875em;
+$header-color: #626262;
+$header-hover: #000;
+$header-top-margin: 4.375em;
+$header-width: 100%;
 
 * {
 	font-family: $font;
+	list-style: none;
+	text-decoration: none;
+}
+
+nav {
+	position: relative;
+	font-size: $size-font-menu;
+	font-weight: bold;
+	margin-top: $header-top-margin;
+	width: $header-width;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nav-item a {
+	padding-right: 6.250em;
+	color: $header-color;
+}
+
+.nav-item:first-child a {
+  font-size: $size-logo;
+
+}
+
+.nav-item a:hover {
+	color: $header-hover;
 }
