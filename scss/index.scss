@@ -5,6 +5,7 @@ $header-color: #626262;
 $header-hover: #000;
 $header-top-margin: 4.375em;
 $header-width: 100%;
+$photodiary-color: #b4ad9e;
 
 * {
 	font-family: $font;
@@ -13,7 +14,10 @@ $header-width: 100%;
 	max-width: 1920px;
 	margin: auto;
 }
-
+.container {
+	max-width: 1024px;
+	width: 100%;
+}
 //====NAVIGATION====//
 nav {
 	position: relative;
@@ -31,7 +35,6 @@ nav {
 }
 
 .nav-item a {
-	padding-right: 6.250em;
 	color: $header-color;
 }
 
@@ -45,12 +48,43 @@ nav {
 }
 
 //====Home-image====//
-article figure {
+article {
 	display:flex;
 	justify-content: center;
 }
-article figure img {
+
+article img {
 	max-width: 100%; 
 	display:block; 
 	height: auto;
+}
+
+//==NEXT-page==//
+.photodiary {
+	margin-top: 5.000em
+}
+.photodiary section {
+	max-width: 100%;
+	padding: 0em 1.875em 0em 1.875em;
+}
+
+.photodiary section p {
+		line-height: 1.5;
+}
+
+.photodiary section p:nth-child(1) {
+	color: $photodiary-color;
+	font-size: $size-font-menu;
+}
+
+.photodiary section p:nth-child(2) {
+	color: $header-color;
+	font-size: $size-logo;
+	margin-top: 30px;
+}
+
+.photodiary section p:nth-child(3) {
+	color: $header-color;
+	font-size: $size-font-menu;
+	margin-top: 45px;
 }

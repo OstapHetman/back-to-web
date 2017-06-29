@@ -5,6 +5,10 @@
   max-width: 1920px;
   margin: auto; }
 
+.container {
+  max-width: 1024px;
+  width: 100%; }
+
 nav {
   position: relative;
   font-size: 0.875em;
@@ -19,7 +23,6 @@ nav {
   flex-wrap: wrap; }
 
 .nav-item a {
-  padding-right: 6.250em;
   color: #626262; }
 
 .nav-item:first-child a {
@@ -28,13 +31,37 @@ nav {
 .nav-item a:hover {
   color: #000; }
 
-article figure {
+article {
   display: flex;
   justify-content: center; }
 
-article figure img {
+article img {
   max-width: 100%;
   display: block;
   height: auto; }
+
+.photodiary {
+  margin-top: 5em; }
+
+.photodiary section {
+  max-width: 100%;
+  padding: 0em 1.875em 0em 1.875em; }
+
+.photodiary section p {
+  line-height: 1.5; }
+
+.photodiary section p:nth-child(1) {
+  color: #b4ad9e;
+  font-size: 0.875em; }
+
+.photodiary section p:nth-child(2) {
+  color: #626262;
+  font-size: 1.875em;
+  margin-top: 30px; }
+
+.photodiary section p:nth-child(3) {
+  color: #626262;
+  font-size: 0.875em;
+  margin-top: 45px; }
 
 /*# sourceMappingURL=index.css.map */
