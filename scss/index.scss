@@ -1,5 +1,5 @@
-$back: red;
+$font: 'Ubuntu', sans-serif;
 
-div {
-	color: $back;
+* {
+	font-family: $font;
 }
