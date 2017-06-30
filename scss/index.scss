@@ -6,6 +6,8 @@ $header-hover: #000;
 $header-top-margin: 4.375em;
 $header-width: 100%;
 $photodiary-color: #b4ad9e;
+$sign-up-bgc: #f0f0f0;
+$sign-up-color: #333333;
 
 * {
 	font-family: $font;
@@ -121,4 +123,20 @@ article .right-post {
 	max-width: 29.500em;
 	width: 100%;
 	height: auto;
+}
+//==NEXT PART==//
+.sign-up {
+	margin-top: 125px;
+	height: 17.813em;
+	background-color: $sign-up-bgc;
+	display: flex;
+	justify-content: center;
+}
+.sign-up section p {
+	font-size: $size-logo;
+	font-weight: bold;
+	color: $sign-up-color;
+}
+.sign-up section form {
+	margin-top:4em;
 }

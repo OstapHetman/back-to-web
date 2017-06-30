@@ -93,4 +93,19 @@ article .right-post {
   width: 100%;
   height: auto; }
 
+.sign-up {
+  margin-top: 125px;
+  height: 17.813em;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center; }
+
+.sign-up section p {
+  font-size: 1.875em;
+  font-weight: bold;
+  color: #333333; }
+
+.sign-up section form {
+  margin-top: 4em; }
+
 /*# sourceMappingURL=index.css.map */
