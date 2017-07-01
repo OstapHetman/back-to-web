@@ -10,6 +10,8 @@ $sign-up-bgc: #f0f0f0;
 $sign-up-color: #333333;
 $footer-bgc: #f0f0f0;
 $footer-color: #000;
+$button-color: #b4ad9e;
+$btn-hover: #f0f0f0;
 
 * {
 	font-family: $font;
@@ -18,24 +20,31 @@ $footer-color: #000;
 	max-width: 1920px;
 	margin: auto;
 }
-.container {
+.my-container {
 	max-width: 1024px;
 	width: 100%;
 }
 //====NAVIGATION====//
 nav {
-	position: relative;
-	font-size: $size-font-menu;
+	
 	font-weight: bold;
 	margin-top: $header-top-margin;
 	width: $header-width;
+}
+#navbar-header {
+	background-color: white;
+	border-bottom: white;
+	font-size: $size-font-menu;
 }
 
 .nav-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	background-color: red;
+}
+.nav-list ul {
+	float:left;
 }
 
 .nav-item a {
@@ -118,7 +127,11 @@ article img {
  .left-post div div p:nth-child(2) {
 	color: $header-color;
 	font-size: $size-logo;
-	margin-top: 1.875em;
+	margin: 1.5em 0em 1.5em 0em;
+}
+
+.left-post div div p:nth-child(3) {
+	padding-bottom: 8.125em;
 }
 
  .right-post {
@@ -126,6 +139,7 @@ article img {
 	width: 100%;
 	height: auto;
 }
+
  .right-post div div p:first-child {
 	color: $photodiary-color;
 	font-size: $size-font-menu;
@@ -135,7 +149,11 @@ article img {
  .right-post div div p:nth-child(2) {
 	color: $header-color;
 	font-size: $size-logo;
-	margin-top: 1.875em;
+	padding: 1.5em 0em 1.5em 0em;
+}
+
+.right-post div div p:nth-child(3) {
+	padding-bottom: 8.125em;
 }
 //==NEXT PART==//
 .sign-up {
@@ -145,11 +163,13 @@ article img {
 	display: flex;
 	justify-content: center;
 }
+
 .sign-up section p {
 	font-size: $size-logo;
 	font-weight: bold;
 	color: $sign-up-color;
 }
+
 .sign-up section form {
 	margin-top:4em;
 }
@@ -160,6 +180,7 @@ article img {
 	display:flex;
 	justify-content: center;
 }
+
 footer {
 	position: relative;
 	margin-top: 10em;
@@ -174,6 +195,37 @@ footer {
 	flex-wrap: wrap;
 	padding-top: 2.5em;
 }
+
 .footer-list li a, i {
 		color: $footer-color;
+}
+
+.load-more {
+	  background-color: white;
+}
+
+.load-more button {
+	-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #b4ad9e;
+  font-size: 20px;
+  padding: 22px;
+  border: solid #b4ad9e 2px;
+  text-decoration: none;
+}
+
+.load-more button {
+  background-color: transparent;
+  color: $button-color;
+  border: 1px solid $button-color;
+  
+  transition: .2s ease;
+  
+  &:hover {
+    background-color: $btn-hover;
+    color: white;
+    
+    transition: .2s ease;
+  }
 }

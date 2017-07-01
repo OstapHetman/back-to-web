@@ -5,22 +5,28 @@
   max-width: 1920px;
   margin: auto; }
 
-.container {
+.my-container {
   max-width: 1024px;
   width: 100%; }
 
 nav {
-  position: relative;
-  font-size: 0.875em;
   font-weight: bold;
   margin-top: 4.375em;
   width: 100%; }
+
+#navbar-header {
+  background-color: white;
+  border-bottom: white;
+  font-size: 0.875em; }
 
 .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  background-color: red; }
+
+.nav-list ul {
+  float: left; }
 
 .nav-item a {
   color: #626262; }
@@ -86,7 +92,10 @@ article img {
 .left-post div div p:nth-child(2) {
   color: #626262;
   font-size: 1.875em;
-  margin-top: 1.875em; }
+  margin: 1.5em 0em 1.5em 0em; }
+
+.left-post div div p:nth-child(3) {
+  padding-bottom: 8.125em; }
 
 .right-post {
   max-width: 29.500em;
@@ -101,7 +110,10 @@ article img {
 .right-post div div p:nth-child(2) {
   color: #626262;
   font-size: 1.875em;
-  margin-top: 1.875em; }
+  padding: 1.5em 0em 1.5em 0em; }
+
+.right-post div div p:nth-child(3) {
+  padding-bottom: 8.125em; }
 
 .sign-up {
   margin-top: 125px;
@@ -138,5 +150,28 @@ footer {
 
 .footer-list li a, i {
   color: #000; }
+
+.load-more {
+  background-color: white; }
+
+.load-more button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #b4ad9e;
+  font-size: 20px;
+  padding: 22px;
+  border: solid #b4ad9e 2px;
+  text-decoration: none; }
+
+.load-more button {
+  background-color: transparent;
+  color: #b4ad9e;
+  border: 1px solid #b4ad9e;
+  transition: .2s ease; }
+  .load-more button:hover {
+    background-color: #f0f0f0;
+    color: white;
+    transition: .2s ease; }
 
 /*# sourceMappingURL=index.css.map */
