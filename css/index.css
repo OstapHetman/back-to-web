@@ -133,7 +133,7 @@ article img {
   margin-top: 4em; }
 
 .load-more {
-  margin-top: 3em;
+  margin-top: 1em;
   display: flex;
   justify-content: center; }
 
@@ -162,24 +162,32 @@ article img {
 
 footer {
   position: relative;
-  margin-top: 10em;
+  margin-top: 8em;
   background-color: #f0f0f0;
   min-height: 6.250em; }
 
-.footer-list {
+.left-side, .right-side {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 2.5em; }
 
-.footer-list li a, i {
+.left-side li a, i {
   color: #000; }
 
-.footer-list li a:nth-child(-n+3) {
+.left-side ul {
+  position: relative; }
+
+.left-side ul li {
+  position: absolute; }
+
+.left-side li a {
   padding: 1em; }
 
-.icon {
-  display: flex;
-  flex-direction: row; }
+.right-side li a {
+  padding: 1em; }
+
+.right-side li a i:hover {
+  color: #fff; }
 
 /*# sourceMappingURL=index.css.map */
