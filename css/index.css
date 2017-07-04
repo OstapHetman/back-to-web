@@ -82,6 +82,7 @@ article img {
 
 .left-post {
   max-width: 29.500em;
+  margin-right: 2.5em;
   width: 100%;
   height: auto;
   display: flex;
