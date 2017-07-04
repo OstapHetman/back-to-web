@@ -1,23 +1,25 @@
 * {
   font-family: "Ubuntu", sans-serif;
   list-style: none;
-  text-decoration: none;
-  max-width: 1920px;
-  margin: auto; }
+  text-decoration: none; }
+
+body {
+  margin: 0 auto; }
 
 .my-container {
   max-width: 1024px;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
 
 nav {
   font-weight: bold;
-  margin-top: 4.375em;
+  margin-top: 2em;
   width: 100%; }
 
 #navbar-header {
   background-color: white;
   border-bottom: white;
-  font-size: 0.875em; }
+  font-size: 1em; }
 
 .nav-list {
   display: flex;
@@ -31,20 +33,21 @@ nav {
 .nav-item a {
   color: #626262; }
 
-.nav-item:first-child a {
-  font-size: 1.875em; }
+nav .navbar-header a {
+  font-size: 2em; }
 
 .nav-item a:hover {
   color: #000; }
 
 .home-photo {
-  display: flex;
-  justify-content: center; }
+  text-align: center; }
 
 article img {
   max-width: 100%;
-  display: block;
-  height: auto; }
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 0; }
 
 .photodiary {
   margin-top: 5em; }
@@ -58,16 +61,16 @@ article img {
 
 .photodiary section p:nth-child(1) {
   color: #b4ad9e;
-  font-size: 0.875em; }
+  font-size: 1em; }
 
 .photodiary section p:nth-child(2) {
   color: #626262;
-  font-size: 1.875em;
+  font-size: 2em;
   margin-top: 1.875em; }
 
 .photodiary section p:nth-child(3) {
   color: #626262;
-  font-size: 0.875em;
+  font-size: 1em;
   margin-top: 2.813em; }
 
 .lifestyle {
@@ -86,13 +89,12 @@ article img {
 
 .left-post div div p:first-child {
   color: #b4ad9e;
-  font-size: 0.875em;
+  font-size: 1em;
   margin-top: 1.875em; }
 
 .left-post div div p:nth-child(2) {
   color: #626262;
-  font-size: 1.875em;
-  margin: 1.5em 0em 1.5em 0em; }
+  font-size: 2em; }
 
 .left-post div div p:nth-child(3) {
   padding-bottom: 8.125em; }
@@ -104,13 +106,12 @@ article img {
 
 .right-post div div p:first-child {
   color: #b4ad9e;
-  font-size: 0.875em;
+  font-size: 1em;
   margin-top: 1.875em; }
 
 .right-post div div p:nth-child(2) {
   color: #626262;
-  font-size: 1.875em;
-  padding: 1.5em 0em 1.5em 0em; }
+  font-size: 2em; }
 
 .right-post div div p:nth-child(3) {
   padding-bottom: 8.125em; }
@@ -123,7 +124,7 @@ article img {
   justify-content: center; }
 
 .sign-up section p {
-  font-size: 1.875em;
+  font-size: 2em;
   font-weight: bold;
   color: #333333; }
 

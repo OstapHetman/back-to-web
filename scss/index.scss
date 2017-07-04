@@ -1,9 +1,9 @@
 $font: 'Ubuntu', sans-serif;
-$size-font-menu: 0.875em;
-$size-logo: 1.875em;
+$size-font-menu: 1em;
+$size-logo: 2em;
 $header-color: #626262;
 $header-hover: #000;
-$header-top-margin: 4.375em;
+$header-top-margin: 2em;
 $header-width: 100%;
 $photodiary-color: #b4ad9e;
 $sign-up-bgc: #f0f0f0;
@@ -17,20 +17,23 @@ $btn-hover: #f0f0f0;
 	font-family: $font;
 	list-style: none;
 	text-decoration: none;
-	max-width: 1920px;
-	margin: auto;
+}
+
+body {
+	margin: 0 auto;
 }
 .my-container {
 	max-width: 1024px;
 	width: 100%;
+	margin: 0 auto;
 }
 //====NAVIGATION====//
 nav {
-	
 	font-weight: bold;
 	margin-top: $header-top-margin;
 	width: $header-width;
 }
+
 #navbar-header {
 	background-color: white;
 	border-bottom: white;
@@ -51,7 +54,7 @@ nav {
 	color: $header-color;
 }
 
-.nav-item:first-child a {
+nav .navbar-header a {
   font-size: $size-logo;
 
 }
@@ -62,14 +65,15 @@ nav {
 
 //====Home-image====//
 .home-photo {
-	display:flex;
-	justify-content: center;
+	text-align: center;
 }
 
 article img {
 	max-width: 100%; 
-	display:block; 
+	display: inline-block; 
 	height: auto;
+	margin: 0;
+	padding: 0;
 }
 
 //==NEXT-page==//
@@ -127,7 +131,6 @@ article img {
  .left-post div div p:nth-child(2) {
 	color: $header-color;
 	font-size: $size-logo;
-	margin: 1.5em 0em 1.5em 0em;
 }
 
 .left-post div div p:nth-child(3) {
@@ -149,7 +152,6 @@ article img {
  .right-post div div p:nth-child(2) {
 	color: $header-color;
 	font-size: $size-logo;
-	padding: 1.5em 0em 1.5em 0em;
 }
 
 .right-post div div p:nth-child(3) {
